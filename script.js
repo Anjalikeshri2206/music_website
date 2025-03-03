@@ -134,18 +134,8 @@ const songs = [
         <div class="subtitle">Armaan Malik</div>`,
         poster: "poster/22.jpg"
     },
-    {
-        id: 23,
-        songName: `Veham<br>
-        <div class="subtitle">Armaan Malik</div>`,
-        poster: "poster/23.jpg"
-    },
-    {
-        id: 23,
-        songName: `O O Jaane Jaana<br>
-        <div class="subtitle"> Kamaal Khan </div>`,
-        poster: "poster/24.jpg"
-    }
+   
+    
 ]
 
 Array.from(document.getElementsByClassName('songItem')).forEach((e, i) =>{
